@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -7,13 +7,456 @@
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.saisreenivas.test.testingpalette.MainActivity"
+
+
     tools:showIn="@layout/app_bar_main">
 
-    <Button
-        android:id="@+id/Widgets"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Widgets"
-        tools:layout_editor_absoluteX="-92dp"
-        tools:layout_editor_absoluteY="67dp"/>
-</android.support.constraint.ConstraintLayout>
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="AppCompat Body1"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="AppCompat Body2"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="AppCompat Small"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="AppCompat Medium"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="AppCompat Large"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="AppCompat Display1"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="AppCompat Display2"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+        />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="AppCompat Display3"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display3" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="AppCompat Display4"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display4" />
+
+
+
+
+        <Button
+            android:id="@+id/Widgets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Widgets"/>
+
+        <Button
+            android:id="@+id/Widgets1"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AppCompat Button" />
+
+        <Button
+            android:id="@+id/Widgets2"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AppCompat Button BorderLess" />
+
+        <Button
+            android:id="@+id/Widgets3"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AppCompat Button BorderLess Colored" />
+
+        <Button
+            android:id="@+id/Widgets4"
+            style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AppCompat Button ButtonBar AlertDialog" />
+
+        <Button
+            android:id="@+id/Widgets5"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AppCompat Button Colored" />
+
+        <Button
+            android:id="@+id/Widgets6"
+            style="@style/Widget.AppCompat.Button.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AppCompat Button Small" />
+
+        <Button
+            android:id="@+id/Widgets7"
+            style="@android:style/Widget.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/Widgets8"
+            style="@android:style/Widget.Button.Inset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button Inset" />
+
+        <Button
+            android:id="@+id/Widgets9"
+            style="@android:style/Widget.Button.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button Small" />
+
+        <Button
+            android:id="@+id/Widgets10"
+            style="@android:style/Widget.Button.Toggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button Toggle" />
+
+        <Button
+            android:id="@+id/Widgets11"
+            style="@android:style/Widget.DeviceDefault.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DeviceDefault Button" />
+
+        <Button
+            android:id="@+id/Widgets12"
+            style="@android:style/Widget.DeviceDefault.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DeviceDefault Button Borderless" />
+
+        <Button
+            android:id="@+id/Widgets13"
+            style="@android:style/Widget.DeviceDefault.Button.Borderless.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DeviceDefault Button Borderless Small
+" />
+
+        <Button
+            android:id="@+id/Widgets14"
+            style="@android:style/Widget.DeviceDefault.Button.Inset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DeviceDefault Button Inset" />
+
+        <Button
+            android:id="@+id/Widgets15"
+            style="@android:style/Widget.DeviceDefault.Button.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DeviceDefault Button Small" />
+
+        <Button
+            android:id="@+id/Widgets16"
+            style="@android:style/Widget.DeviceDefault.Button.Toggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DeviceDefault Button Toggle" />
+
+        <Button
+            android:id="@+id/Widgets17"
+            style="@android:style/Widget.DeviceDefault.Light.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DeviceDefault Light Button" />
+
+        <Button
+            android:id="@+id/Widgets18"
+            style="@android:style/Widget.DeviceDefault.Light.Button.Borderless.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DeviceDefault Light Button Borderless Small" />
+
+        <Button
+            android:id="@+id/Widgets19"
+            style="@android:style/Widget.DeviceDefault.Light.Button.Inset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DeviceDefault Light Button Inset" />
+
+        <Button
+            android:id="@+id/Widgets20"
+            style="@android:style/Widget.DeviceDefault.Light.Button.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DeviceDefault Light Button Small" />
+
+        <Button
+            android:id="@+id/Widgets21"
+            style="@android:style/Widget.DeviceDefault.Light.Button.Toggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DeviceDefault Light Button Toggle" />
+
+        <Button
+            android:id="@+id/Widgets22"
+            style="@android:style/Widget.Holo.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Holo Button" />
+
+        <Button
+            android:id="@+id/Widgets23"
+            style="@android:style/Widget.Holo.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Holo Button Borderless" />
+
+        <Button
+            android:id="@+id/Widgets24"
+            style="@android:style/Widget.Holo.Button.Borderless.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Holo Button Borderless Small" />
+
+        <Button
+            android:id="@+id/Widgets25"
+            style="@android:style/Widget.Holo.Button.Inset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Holo Button Inset" />
+
+        <Button
+            android:id="@+id/Widgets26"
+            style="@android:style/Widget.Holo.Button.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Holo Button Small" />
+
+        <Button
+            android:id="@+id/Widgets27"
+            style="@android:style/Widget.Holo.Button.Toggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Holo Button Toggle" />
+
+        <Button
+            android:id="@+id/Widgets28"
+            style="@android:style/Widget.Holo.Light.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Holo Light Button" />
+
+        <Button
+            android:id="@+id/Widgets29"
+            style="@android:style/Widget.Holo.Light.Button.Borderless.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Holo Light Button Borderless Small" />
+
+        <Button
+            android:id="@+id/Widgets30"
+            style="@android:style/Widget.Holo.Light.Button.Inset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Holo Light Button Inset" />
+
+        <Button
+            android:id="@+id/Widgets31"
+            style="@android:style/Widget.Holo.Light.Button.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Holo Light Button Small" />
+
+        <Button
+            android:id="@+id/Widgets32"
+            style="@android:style/Widget.Holo.Light.Button.Toggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Holo Light Button Toggle" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Material Buttons are applicable from API21(lollipop) onwards"
+            />
+        <Button
+            android:id="@+id/Widgets33"
+            style="@android:style/Widget.Material.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Material Button"
+            tools:targetApi="lollipop" />
+
+        <Button
+            android:id="@+id/Widgets34"
+            style="@android:style/Widget.Material.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Material Button Borderless"
+            tools:targetApi="lollipop" />
+
+        <Button
+            android:id="@+id/Widgets35"
+            style="@android:style/Widget.Material.Button.Borderless.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Material Button Borderless Colored"
+            tools:targetApi="lollipop" />
+
+        <Button
+            android:id="@+id/Widgets36"
+            style="@android:style/Widget.Material.Button.Borderless.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Material Button Borderless Small"
+            tools:targetApi="lollipop" />
+
+        <Button
+            android:id="@+id/Widgets37"
+            style="@android:style/Widget.Material.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Material Button Colored"
+            tools:targetApi="m" />
+
+        <Button
+            android:id="@+id/Widgets38"
+            style="@android:style/Widget.Material.Button.Inset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Material Button Inset"
+            tools:targetApi="lollipop" />
+
+        <Button
+            android:id="@+id/Widgets39"
+            style="@android:style/Widget.Material.Button.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Material Button Small"
+            tools:targetApi="lollipop" />
+
+        <Button
+            android:id="@+id/Widgets40"
+            style="@android:style/Widget.Material.Button.Toggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Material Button Toggle"
+            tools:targetApi="lollipop" />
+
+        <Button
+            android:id="@+id/Widgets41"
+            style="@android:style/Widget.Material.Light.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Material Light Button"
+            tools:targetApi="lollipop" />
+
+        <Button
+            android:id="@+id/Widgets42"
+            style="@android:style/Widget.Material.Light.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Material Light Button Borderless"
+            tools:targetApi="lollipop" />
+
+        <Button
+            android:id="@+id/Widgets43"
+            style="@android:style/Widget.Material.Light.Button.Borderless.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Material Light Button Borderless Colored"
+            tools:targetApi="lollipop" />
+
+        <Button
+            android:id="@+id/Widgets44"
+            style="@android:style/Widget.Material.Light.Button.Borderless.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Material Light Button Borderless Small"
+            tools:targetApi="lollipop" />
+
+        <Button
+            android:id="@+id/Widgets45"
+            style="@android:style/Widget.Material.Light.Button.Inset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Material Light Button Inset"
+            tools:targetApi="lollipop" />
+
+        <Button
+            android:id="@+id/Widgets46"
+            style="@android:style/Widget.Material.Light.Button.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Material Light Button Small"
+            tools:targetApi="lollipop" />
+
+        <Button
+            android:id="@+id/Widgets47"
+            style="@android:style/Widget.Material.Light.Button.Toggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Material Light Button Toggle"
+            tools:targetApi="lollipop" />
+
+    </LinearLayout>
+
+
+</ScrollView>
